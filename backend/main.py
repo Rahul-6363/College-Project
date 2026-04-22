@@ -79,7 +79,7 @@ except ImportError:
 
 allowed_origins = [
     origin.strip()
-    for origin in os.getenv("ALLOWED_ORIGINS", "http://localhost:3000,http://localhost:5173").split(",")
+    for origin in os.getenv("ALLOWED_ORIGINS", "https://college-project-726a.vercel.app,http://localhost:3000,http://localhost:5173").split(",")
     if origin.strip()
 ]
 
